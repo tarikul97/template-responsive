@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap3</title>
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <!-- font awesome link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="Bootstrap3.css">
+   
+    <!-- <link rel="stylesheet" href="assets/css/all.css"> -->
+
+</head>
+<body>
+  <div class="body">
+     <div class="container">
+        <header>
+          <nav class="navbar navbar-expand-md">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white"> <i class="fas fa-bars navbar-icon"></i></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="image/logo.png" alt="logo">
+            </a>
+          
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              <ul class="navbar-nav m-auto  ">
+                  <li class="nav-item active">
+                    <a class="nav-link text-center text-md-left "href="#">Home</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle text-center " href="#" role="button" data-bs-toggle="dropdown" >product</a>
+                      <ul class="dropdown-menu text-left">
+                          <li><a class="dropdown-item" href="https://wedevs.com/dokan/" target="_blank">Dokan Maultivendor</a></li>
+                          <li><a  class="dropdown-item" href="https://wedevs.com/wepos/"target="_blank">wePos</a></li>
+                          <li><a  class="dropdown-item" href="https://appsero.com/?utm_source=wedevs&utm_medium=menu"target="_blank">Appsero</a></li>
+                      </ul>
+                  </li>
+
+          
+                     
+                  <li class="nav-item">
+                    <a class="nav-link text-center text-md-left" href="about-me">About Me</a>
+                  </li>
+
+                   <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle text-center" href="#Tutorial" role="button" data-bs-toggle="dropdown">Tutorial</a>
+                        <ul class="dropdown-menu text-left">
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=n_HhXXTJHFg&list=PLm64fbD5OnxuObyOVSxcM0TUcBLDF2w64"target="_blank">Html.& css</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PL_XxuZqN0xVAu_dWUVFbscqZdTzE8t6Z1"target="_blank">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=QDo1CSxFbRc&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG&index=29"target="_blank">Bootstrap</a></li>
+                       </ul>
+                   </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-center text-md-left" href="#condact-me">Contact me</a>
+                   
+                  </li>
+              </ul>
+         </div>
+    </nav>
+
+      <section id="banner">
+        <div class="banner-container d-flex justify-content-center align-items-center">
+            <div class="banner-contents text-center">
+                 <h1 class="font-weight-bolder text-white mb-5">Learn Something New !!!</h1>
+                 <button class="btn btn-lg btn-primary mr-3" onclick="location.href='#tutorial'"><i class="fas fa-play mr-2"></i>Tutorial</button>
+                 <button class="btn btn-lg btn-primary  mr-3" onclick="window.open('https://www.foodpanda.com/')" class="request-callback"><i class="fab fa-youtube mr-2"></i>Subscribe</button>
+            </div>
+        </div>
+
+      </section>
+        
+ </header>
+     <main>
+      <!-- features start -->
+         <section id="features" class="text-center ">
+            <div class="row">
+                <div class="col-lg-4 d-block d-lg-flex">
+                    <div class="features-col">
+                       <i class=" fas fa-hand-holding-usd fa-3x icon-style rounded-circle "></i>
+                       <h5 class="fa-2x">Free to use</h5>
+                       <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, earum. Odit corporis asperiores esse ex consectetur nam voluptas aliquam Lorem, ipsum Lorem, ipsum Lorem ipsum, </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-block d-lg-flex">
+                  <div class="features-col">
+                     <i class=" fas fa-hand-holding-usd fa-3x icon-style rounded-circle "></i>
+                     <h5 class="fa-2x">Free to use</h5>
+                     <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, earum. Odit corporis asperiores esse ex consectetur nam voluptas aliquam Lorem, ipsum Lorem, ipsum Lorem ipsum, </p>
+                  </div>
+              </div>
+              <div class="col-lg-4 d-block d-lg-flex ">
+                <div class="features-col">
+                   <i class=" fas fa-hand-holding-usd fa-3x icon-style rounded-circle "></i>
+                   <h5 class="fa-2x">Free to use</h5>
+                   <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, earum. Odit corporis asperiores esse ex  </p>
+                </div>
+            </div>
+          
+              
+         
+         </div>
+          
+      <!-- features ends -->
+    </section>
+
+      <!-- about-me start -->
+         <section class="about-me ">
+            <div class="section-title ">
+              <h3 class="text-center">About Me</h3>
+             <div class="Htyle"><hr class="hr-style" style="border-color: black;"></div>
+            </div>
+
+         
+            <div class="row">
+                <div class="col-lg-5 ">
+                    <div class="basic-desc ">
+                      <i class="icon-style fas fa-hand-holding-usd rounded-circle fa-2x"></i>
+                      <h5 class="fa-2x">Personal info</h5>
+                      <p>Name:Tarikul islam</p>
+                      <p>Profession : computer engineer</p>
+                      <p>Current address : mirpur</p>
+                      <p>consectetur adipisicing elit. Enim,?</p>
+                      <p>website: <a href="https://www.facebook.com/mdTarikulislam1234/" target="_blank">www.md tarikul islam facebook.come</a></p>
+                      <button class="btn btn-primary">Download CV</button>
+                    </div>
+                </div>
+            </div>
+          <div class="row">
+             <div class="col-lg-7"></div> 
+                <div class="col-lg-5">
+                  <div class="achieve-desc  ">
+                    <i class="icon-style fas fa-hand-holding-usd rounded-circle fa-2x"></i>
+                      <h5 class="fa-2x">Achievements</h5>
+                     <p><span>100% tuition waiver</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, libero! hosoh hooe </p><br>
+                     <p><span>public bank  scholarchip</span> 40,000,Tk for schoring GPA 3.92/4.in B.cs bangladesh Tempore dolor repellat vel mollitia.<p><br>
+                     <p><span>silver button</span> elit. Vel eligendi porro, fugit asperiores praesentium sint. Tempore dolor repella</p>
+                </div>
+              </div>
+           </div>
+           <div class="row">
+            <div class="col-lg-5">
+                <div class="basic-desc ">
+                  <i class="icon-style fas fa-hand-holding-usd rounded-circle fa-2x"></i>
+                  <h5 class="fa-2x">Personal info</h5>
+                  <p>Name:Tarikul islam</p>
+                  <p>Profession : computer engineer</p>
+                  <p>Current address : mirpur</p>
+                  <p>consectetur adipisicing elit. Enim,?</p>
+                  <p>website: <a href="https://www.facebook.com/mdTarikulislam1234/" target="_blank">www.md tarikul islam facebook.come</a></p>
+                  <button class="btn btn-primary">Download CV</button>
+                </div>
+            </div>
+        </div>
+           <div class="row">
+            <div class="col-lg-7"></div> 
+               <div class="col-lg-5">
+                 <div class="achieve-desc  ">
+                   <i class="icon-style fas fa-hand-holding-usd rounded-circle fa-2x"></i>
+                     <h5 class="fa-2x ">Achievements</h5>
+                    <p><span>100% tuition waiver</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, libero! hosoh hooe </p><br>
+                    <p><span>public bank  scholarchip</span> 40,000,Tk for schoring GPA 3.92/4.in B.cs  bangladesh Tempore dolor repellat vel mollitia.<p><br>
+                    <p><span>silver button</span> elit. Vel eligendi porro, fugit asperiores praesentium sint. Tempore dolor repella</p>
+               </div>
+             </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-lg-5">
+               <i class=" icon-style rounded-circle fa-2x fas fa-briefcase "></i>
+               <h5 class="fa-2x">Skill</h5>
+               <table>
+                  <tr>
+                     <td>HTML:</td>
+                      <td>
+                         <span class="star">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                         </span>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>CSS:</td>
+                     <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i> 
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                     </td>
+                 </tr>
+                 <tr>
+                  <td>JS:</td>
+                   <td>
+                      <span class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                      </span>
+                   </td>
+               </tr>
+               </table>
+            </div>
+        </div>
+    </section>
+        <section id="Tutorial">
+          <div class="section-title ">
+            <h3 class="text-center text-white">Tutorial</h3>
+             <div class="Htyle"><hr class="hr-style" style="border-color: white;"></div>
+          </div>
+             <div class="row mt-5">
+
+                 <div class="col-lg-3 col-md-6 col-sm-12">          
+                    <div class="card">
+                      <img src="image/webp.webp" alt="img">
+                       <div class="card-body text-center">
+                         <h2 class="">HSC ICT</h2>
+                         <a href="#" class="stretched-link"></a>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-12">         
+                  <div class="card">
+                    <img src="image/webp.webp" alt="img">
+                    <div class="card-body text-center">
+                      <h2 class="">HSC ICT</h2>
+                      <a href="#" class="stretched-link"></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-12">          
+                <div class="card">
+                  <img src="image/webp.webp" alt="img">
+                  <div class="card-body text-center">
+                    <h2 class="">HSC ICT</h2>
+                    <a href="#" class="stretched-link"></a>
+                   </div>
+                </div>
+             </div>
+             <div class="col-lg-3 col-md-6 col-sm-12">   
+              <div class="card">
+                <img src="image/webp.webp" alt="img">
+                <div class="card-body text-center">
+                  <h2 class="">HSC ICT</h2>
+                  <a href="#" class="stretched-link"></a>
+                 </div>
+              </div>
+           </div>
+           <div class="col-lg-3 col-md-6 col-sm-12">   
+            <div class="card">
+              <img src="image/webp.webp" alt="img">
+              <div class="card-body text-center">
+                <h2 class="">HSC ICT</h2>
+                <a href="#" class="stretched-link"></a>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-3 col-md-6 col-sm-12">        
+            <div class="card">
+              <img src="image/webp.webp" alt="img">
+              <div class="card-body text-center">
+                <h2 class="">HSC ICT</h2>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">           
+            <div class="card">
+              <img src="image/webp.webp" alt="img">
+              <div class="card-body text-center">
+                <h2 class="">HSC ICT</h2>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">        
+              <div class="card">
+                <img src="image/webp.webp" alt="img">
+                <div class="card-body text-center">
+                  <h2 class="">HSC ICT</h2>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+          </div>         
+      </div>
+
+        </section> 
+        <!-- about-me ends -->
+
+         <!-- feedback start -->
+              <section id="feedback">
+                <div class="section-title ">
+                  <h3 class="text-center fa-2x">Feedback</h3>
+                   <div class="Htyle"><hr class="hr-style" style="border-color: white;"></div>
+                </div>
+               
+               
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+
+                  <div class="carousel-indicators  ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner ">
+                    <div class="carousel-item active text-center  ">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore voluptate voluptatem quis atque rerum reprehenderit facere ullam assumenda reiciendis!</p>
+                      <img class="rounded-circle feedback-img " src="image/Tarikul.jpg" class="" alt="image">
+                      <h4>Tarikul islam</h4>
+                    </div>
+                    <div class="carousel-item text-center  ">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore voluptate voluptatem quis atque rerum reprehenderit facere ullam assumenda reiciendis!</p>
+                      <img class="rounded-circle feedback-img " src="image/slider1.jpg" class="" alt="image">
+                      <h4>Tarikul islam</h4>
+                    </div>
+                    <div class="carousel-item  text-center  ">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet inventore voluptate voluptatem quis atque rerum reprehenderit facere ullam assumenda reiciendis!</p>
+                      <img class="rounded-circle feedback-img  " src="image/slider3.jpg" class="" alt="image">
+                      <h4>Tarikul islam</h4>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                    <span class="visually-hidden ">Next</span>
+                  </button>
+                </div>
+              </section>
+          <!-- feedback end -->
+
+          <!-- Contact-me start -->
+               <section id="Contact-me">
+                <div class="section-title ">
+                  <h3 class="text-center fa-2x">Contact-me</h3>
+                   <div class="Htyle"><hr class="hr-style" style="border-color: white;"></div>
+                </div>
+                   <div class="row">
+                      <div class="col-lg-12">
+                         <form action="mailto:mdtarikul5106@gmail.com" method="post" enctype="text/plain" class="was-validated">
+                            <div class="form-group mb-2">
+                               <label for="fullname">Fullname</label>
+                               <input type="text" class="form-control" name="fullname" required> 
+                               <div class="valid-feedback">valid</div>
+                               <div class="invalid-feedback text-white">Enter fullname before submitting the form</div>
+                            </div>
+                            <div class="form-group mb-2">
+                              <label for="email">Email</label>
+                              <!-- <input type="Email" class="form-control" name="Email" id="Email" required> <br> -->
+                              <input type="text" class="form-control" name="email" id="email" required>                           
+                           </div>
+                          <div class="form-group mb-2">
+                            <label for="Password">Password</label>
+                            <!-- <input type="email" class="form-control" name="Email" required> <br> -->
+                            <input type="text" class="form-control" name="" id="Password">                        
+                         </div>
+                           <div class="form-group mb-2">
+                            <label for="massage">Massage</label>
+                              <textarea style="resize: none;" name="" id="" class="form-control" cols="30" rows="4"></textarea>                                                                                
+                         </div>
+                         <div class="form-grop text-center mb-2">
+                          <input type="submit" class="btn btn-primary mr-3" id="Submit">
+                          <input type="reset" class="btn btn-primary" id="Reset">
+                        </div>
+                         </form>
+                      </div>
+                    </div>
+               </section>
+           
+
+          <!-- Contact-me end -->
+
+        </main>
+        <footer class="footer">
+            <div class="row text-white">
+               <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0 ">
+                   <p class="small mb-0 mt-1">&copy; copyright Tarikul islam</p>
+               </div>
+               <div class="col-lg-6 text-center text-lg-right">
+                 <a href="#" style="text-decoration:none;">Home</a>
+                
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+            </div>
+        </footer>
+            
+        <i class="fa-brands fa-facebook"></i>
+         
+          
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  </div>
+</body>
+</html>

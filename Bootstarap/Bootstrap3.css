@@ -1,0 +1,248 @@
+body{
+    background: #dcd4e7;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+  font-family: sans-serif;
+}
+.h1,h2,h3,h4,h5,h5{
+
+}
+
+.section-title h3{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.hr-style{
+    
+    border: 5px dotted white;
+    width: 60px;
+    border-bottom: none;
+    
+}
+.Htyle{
+    justify-content: center;
+    display: flex;
+    color: black;
+    font-weight: bold;
+}
+/* header start */
+
+header{
+    background-image: url("image/background.webp");
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.navbar-icon{
+   
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+    /* transform: translateY(5px);
+    transition:.4s; */
+ 
+   
+}
+
+.dropdown-item:hover{
+    
+    transform: translateY(5px);
+    transition: .4s;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.banner-container{
+    height: 100vh;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+.banner-contents h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    background-color: rgba(7,101,189,0.8);
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family: 'handlee', cursive;
+}
+
+/* header ends */
+
+ /*--features start */
+    #features{
+        background-color: #FFF6EA;
+        padding: 5% 10%;
+    }
+    .features-col{
+        border: 2px solid #CF4DCE;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 20px 0;
+        transition: .4s;
+
+    }
+    .features-col:hover{
+        transform: scale(1.1);
+        box-shadow: 5px 35px 39px #343a4066;
+    }
+    .icon-style{
+        background-color: #CF4DCE;
+        color: #fff;
+        padding: 20px;
+        margin: 5px 0;
+    }
+    /*--features ends */
+
+    /* about-me start */
+
+    .about-me{
+        background-color: #FFF6EA;
+        padding: 5% 10%;
+    }
+
+    .about-me p{
+        margin-bottom: 0px;
+        font-size: 1rem;
+        font-weight: light;
+    }
+    .about-me a{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        text-decoration: underline;
+        color: black;
+    }
+
+    .achieve-desc span{
+        font-weight: 700 !important;
+       font-size: 20px;
+    }
+    .star i{
+       width: 20px;
+    }
+    /* about-me ends */
+  
+    /* Tutorial start */
+      #Tutorial{
+        background-color:  #37807582;
+        padding: 5% 10%;
+       
+        
+      }
+      .card{
+        margin: 15px 0px;
+        border: 1px solid coral;
+        transition: .4s;
+      }
+      .card:hover{
+        transform: scale(1.2);
+       
+      }
+       .card-body{
+        padding: 30px;
+       
+       }
+
+       .hR{
+        justify-content: center;
+        display: flex;
+        
+       }
+    /* Tutorial ends */
+ 
+    /* feedback start */
+        #feedback{
+            padding: 5% 10%;
+            background-color: #439A97;
+        }
+        .carousel-item{
+             padding: 7% 15%;
+             font-style: italic;
+             font-size: 1.2rem;
+        }
+        .feedback-img {
+            width: 300px;
+            height: 270px;
+            margin-bottom: 15px;
+        }
+    /* feedback ends */
+
+    /* contact-me start */
+
+    #Contact-me{
+        padding: 2% 10%;
+        background-color: rgb(137, 182, 182);
+        
+    } 
+    .form {
+        padding: 5% 10%;
+    }
+
+    .form-group label{
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+      /* contact-me ends */
+
+      /* footer start */
+        .footer{
+            padding: 1% 10%;
+            background-color: #447631;
+            font-weight: bold;
+            font-size: 20px
+
+        }
+        .footer a{
+            color: #fff;
+            margin: 0 10px;
+        }
+        .footer a:hover{
+            color: black;
+        }
+      /* footer ends */
+
+      @media (max-width:768px) {
+        .nav-link{
+            background-color: rgba(0,0,0,0.7);
+        }
+        .banner-contents h1{
+            font-size: 3.15rem;
+            font-weight: bold;
+           
+        }
+        .about-me{
+            text-align: center;
+          
+        }
+        .dropdown-item{
+            text-align: center;
+        }
+        .dropdown-menu{
+            margin-left: -40px;
+            width: 60%;
+        }
+    }
